@@ -7,14 +7,8 @@ set -e
 exec 3>&1 4>&2 &> >(tee -a /config/supervisord.log)
 
 cat << "EOF"
-Created by...
-___.   .__       .__                   
-\_ |__ |__| ____ |  |__   ____ ___  ___
- | __ \|  |/    \|  |  \_/ __ \\  \/  /
- | \_\ \  |   |  \   Y  \  ___/ >    < 
- |___  /__|___|  /___|  /\___  >__/\_ \
-     \/        \/     \/     \/      \/
-   https://hub.docker.com/u/binhex/
+DevEnv - https://hub.docker.com/u/rcannizzaro.
+Based on work by Binhex (https://hub.docker.com/u/binhex/).
 
 EOF
 
