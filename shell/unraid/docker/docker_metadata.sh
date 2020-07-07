@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This file is meant as a metadata store for all docker containers in the binhex repo.
+# This file is meant as a metadata store for all docker containers in the rcannizzaro repo.
 # We use percent to seperate lines, and use tilda to seperate items in the line.
 
 #

@@ -27,9 +27,9 @@ cat <<EOF > "./${name}.xml"
 <?xml version="1.0"?>
 <Container version="2">
   <Name>${name}</Name>
-  <Repository>binhex/${repo}</Repository>
+  <Repository>rcannizzaro/${repo}</Repository>
   <BaseImage>Arch Linux</BaseImage>
-  <Registry>https://registry.hub.docker.com/u/binhex/${repo}/</Registry>
+  <Registry>https://registry.hub.docker.com/u/rcannizzaro/${repo}/</Registry>
   <Project>${project}</Project>
   <Network>${mode}</Network>
   <Privileged>${privileged}</Privileged>
@@ -37,11 +37,8 @@ cat <<EOF > "./${name}.xml"
   <Overview>${description}</Overview>
   <Category>${category}</Category>
   <WebUI>${webui}</WebUI>
-  <TemplateURL>https://github.com/binhex/docker-templates/tree/master/binhex</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/${name}-icon.png</Icon>
-  <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
-  <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MM5E27UX6AUU4</DonateLink>
-  <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
+  <TemplateURL>https://github.com/rcannizzaro/docker-templates/tree/master/rcannizzaro</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/rcannizzaro/docker-templates/master/rcannizzaro/images/${name}-icon.png</Icon>
   <ExtraParams/>
   <DateInstalled></DateInstalled>
   <Description>${description}</Description>

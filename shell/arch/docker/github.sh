@@ -374,13 +374,13 @@ Where:
 
 Examples:
 	GitHub release source download:
-		github.sh --install-path '/opt/binhex/deluge' --github-owner 'binhex' --github-repo 'arch-deluge' --query-type 'release'
+		github.sh --install-path '/opt/rcannizzaro/deluge' --github-owner 'rcannizzaro' --github-repo 'arch-deluge' --query-type 'release'
 
 	GitHub tags source download:
-		github.sh --install-path '/opt/binhex/deluge' --github-owner 'binhex' --github-repo 'arch-deluge' --query-type 'tags'
+		github.sh --install-path '/opt/rcannizzaro/deluge' --github-owner 'rcannizzaro' --github-repo 'arch-deluge' --query-type 'tags'
 
 	GitHub master branch source download:
-		github.sh --install-path '/opt/binhex/deluge' --github-owner 'binhex' --github-repo 'arch-deluge' --query-type 'branch' --download-branch 'master'
+		github.sh --install-path '/opt/rcannizzaro/deluge' --github-owner 'rcannizzaro' --github-repo 'arch-deluge' --query-type 'branch' --download-branch 'master'
 
 	GitHub release binary asset download:
 		github.sh --install-path '/usr/bin' --github-owner 'yudai' --github-repo 'gotty' --download-assets 'gotty_linux_arm.tar.gz' --query-type 'release'
